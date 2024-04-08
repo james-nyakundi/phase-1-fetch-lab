@@ -1,6 +1,14 @@
 function fetchBooks() {
+  fetch('https://anapioficeandfire.com/api/books')
+.then(response => response.json())
+.then( data => console.log(data))
+.then (Object=>{"https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-fetch-lab/Image_26_FullAsynchronousJavaScript.png"})
+.catch(error => console.error('Error:', error));
+return fetch;
+
   // To pass the tests, don't forget to return your fetch!
   
+
 }
 
 function renderBooks(books) {
